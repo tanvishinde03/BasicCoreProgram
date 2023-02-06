@@ -22,8 +22,10 @@ namespace BasicCoreProgram
                     break;
 
 
-
-
+                case 2:
+                    LeapYear leapyearr = new LeapYear();
+                    leapyearr.CheckLeapYear();
+                    break;
 
 
 

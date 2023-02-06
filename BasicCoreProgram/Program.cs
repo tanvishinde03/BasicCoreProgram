@@ -10,7 +10,7 @@ namespace BasicCoreProgram
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("1.FlipCoin \n 2. Leap year");
+            Console.WriteLine("1.FlipCoin \n 2. Leap year \n 3. Poweroftwo");
             Console.WriteLine("Enter the option");
 
             int option = Convert.ToInt32(Console.ReadLine());
@@ -28,9 +28,11 @@ namespace BasicCoreProgram
                     break;
 
 
+                case 3:
 
-
-
+                    PowerOfTwo obj = new PowerOfTwo();
+                    obj.Power();
+                    break;
 
 
 

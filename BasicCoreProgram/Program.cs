@@ -45,7 +45,10 @@ namespace BasicCoreProgram
                     Obj.checkfactors();
                     break;
 
-
+                case 6:
+                    QR obJ = new QR();
+                    obJ.checkQR();
+                    break;
 
 
 

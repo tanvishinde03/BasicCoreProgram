@@ -10,7 +10,7 @@ namespace BasicCoreProgram
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("1.FlipCoin \n 2. Leap year \n 3. Poweroftwo \n 4. Harmonic \n");
+            Console.WriteLine("1.FlipCoin \n 2. Leap year \n 3. Poweroftwo \n 4. Harmonic \n 5. Factors \n 6. QR \n 7. SwapNumber \n 8 .EvenAndOdd \n 9. VowelorConstant \n  10. Largest \n");
             Console.WriteLine("Enter the option");
 
             int option = Convert.ToInt32(Console.ReadLine());
@@ -65,6 +65,10 @@ namespace BasicCoreProgram
                 case 9:
                     VowelorConstant ABC = new VowelorConstant();
                     ABC.checkVowelsOrConstant();
+                    break;
+                case 10:
+                    Largest PQR = new Largest();
+                    PQR.checkLargestNumber();
                     break;
             }
             Console.ReadLine();

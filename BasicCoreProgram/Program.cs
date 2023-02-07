@@ -54,9 +54,18 @@ namespace BasicCoreProgram
                 case 7:
                     SwapNumber Swap = new SwapNumber();
                     Swap.checkswap();
+               
                     break;
 
+                case 8:
+                    EvenAndOdd ENO = new EvenAndOdd();
+                    ENO.checkevenorodd();
+                    break;
 
+                case 9:
+                    VowelorConstant ABC = new VowelorConstant();
+                    ABC.checkVowelsOrConstant();
+                    break;
             }
             Console.ReadLine();
         }

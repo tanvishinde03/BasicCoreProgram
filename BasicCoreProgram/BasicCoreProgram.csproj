@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EvenAndOdd.cs" />
     <Compile Include="Factors.cs" />
     <Compile Include="Harmonic.cs" />
     <Compile Include="LeapYear.cs" />
@@ -51,6 +52,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QR.cs" />
+    <Compile Include="SwapNumber.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -35,7 +35,10 @@ namespace BasicCoreProgram
                     break;
 
 
-
+                case 4:
+                    Harmonic objj = new Harmonic();
+                    objj.Harmonicnumber();
+                    break;
 
 
 

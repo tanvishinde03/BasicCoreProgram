@@ -51,7 +51,10 @@ namespace BasicCoreProgram
                     break;
 
 
-
+                case 7:
+                    SwapNumber Swap = new SwapNumber();
+                    Swap.checkswap();
+                    break;
 
 
             }
